@@ -23,9 +23,6 @@ main{
     width: 100%;
     height: 80%;
 }
-p{
-    font-family: 'Open Sans', sans-serif;
-}
 .botonesinicio{
     width: 150px;
     height: 50px;
@@ -52,9 +49,6 @@ a:active{
 }
 .botonesinicio:hover{
     background-color: rgb(138, 138, 138);
-}
-.imgicon{
-    width: 100%;
 }
 .imagecontainer{
     width: 100%;
@@ -132,7 +126,6 @@ footer{
     width: 10%;
 }
 .footer__icon{
-    width: 30px;
     display: flex;
     margin: 10px;
 }
@@ -154,11 +147,12 @@ footer{
 }
 .contenedor__contacto{
     width: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     align-items: center;
 }
 .contenedor__form{
     width: 300px;
+    margin-top: 30px;
 }
 .textarea{
     width: 300px;

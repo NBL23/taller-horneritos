@@ -1,0 +1,41 @@
+footer{
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer__element {
+    border: 5px;
+    gap: 1rem;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+}
+div{
+    ul{
+        li{
+            a {
+                color: white;
+                &:hover {
+                    color: rgb(180, 180, 180);
+                }
+            }
+        }
+    }
+}
+.footer__logo{
+    width: 10%;
+}
+div{
+    ul{
+        .footer__icon{
+            display: flex;
+            margin: 10px;
+        }
+    }
+}
+.footer__parrafo{
+    font-size: 12px;
+    margin-top: 20px;
+    color: white;
+}
