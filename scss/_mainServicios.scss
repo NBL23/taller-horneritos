@@ -1,29 +1,52 @@
 main{
-    .contenedor{
-        width: 100%;
+    .contenedor-servicios{
         height: 550;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap:wrap;
+        margin: 0px 50px 50px 50px;
+        display: grid;
+        grid-template-columns: 450px;
+        grid-template-rows: 980px 400px;
+        justify-content:center;
         .producto{
-            width: 40rem;
+            width: 480px;
             margin-bottom: 30px;
             align-items: center;
             .tarjetas-contenedor{
-                display:flex;
+                display:inline-block;
+                .card{
+                    width: 430px !important; 
+                    margin: 10px !important; 
+                    font-size: 16px !important;
+                        .card-link{
+                            font-weight: bold !important;
+                            font-size: 16px !important;
+                            color: rgb(56, 56, 56) !important;
+                            &:hover{
+                                background-color: rgb(56, 56, 56) !important;
+                                color: white !important;
+                            }
+                        }
+                    }
+                    .card-img-top{
+                        width: 200px !important; 
+                        border-radius: 5px !important; 
+                        margin: 5px !important;
+
+                    }
+                }
+                }
             }
         }
         .empresas{
-            width: 40rem;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            .empresas__logos{
+            display: grid;
+            grid-template-columns: 450px;
+            grid-template-rows: 70px 350px;
+            .empresas-logos{
+            width: 450px;
+            height: 350px;
             display: inline;
-            align-items: center;
+            .logos{
+                width: 150px; 
+                margin: 10px;
             }
-
+            }
         }
-    }
-}

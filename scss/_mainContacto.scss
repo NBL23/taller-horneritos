@@ -1,25 +1,56 @@
 main{
-    .contenedor{
-        width: 100%;
-        height: 550;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap:wrap;
-        .contenedor__contacto{
-            width: 350px;
-            margin-bottom: 30px;
-            align-items: center;
+    .contenedor-info{
+        margin-bottom: 30px;
+        display:grid;
+        grid-template-columns: 320px;
+        grid-template-rows: 393px 251px 534px;
+        justify-content: center;
+        row-gap: 10px;
+        .contenedor-info__contacto{
+            width: 320px;
+            justify-items: center;
+            .contacto-item{
+                width: 320px;
+                display: grid;
+                grid-template-columns: 318px;
+                grid-template-rows: 40px 40px 60px;
+                padding-left:0px !important;
+                .contacto-item__grupo{
+                    display: grid;
+                    grid-template-columns: 30px 288px;
+                    align-content: center;
+                    .contacto-icon{
+                        width: 30px;
+                    }
+                }
+            }
         }
-        .contenedor__form{
-            width: 300px;
-            margin-top: 30px;
+        .card{
+            width: 320px !important; 
+            height: 250px !important;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .boton-aqui{
+                background-color:rgb(226, 226, 226);
+                color: rgb(116, 116, 116);
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                font-weight: bold;
+                    &:hover{
+                        background-color: rgb(116, 116, 116);
+                        color: white;
+                    }
+                }
+            }
+        .contenedor-info__form{
+            width: 320px;
             fieldset{
                 div{
                     .input-completar{
-                        margin-left: 10px;
-                        width: 250px;
+                        width: 320px;
                         height: 30px;
                         background-color: rgb(226, 226, 226);
                         color: rgb(138, 138, 138);
@@ -32,8 +63,6 @@ main{
                         font-size: 16px;
                     }
                     .textarea{
-                        width: 300px;
-                        height: 150px;
                         background-color: rgb(226, 226, 226);
                         color: rgb(138, 138, 138);
                         padding: 10px;
@@ -44,9 +73,22 @@ main{
                         outline: none;
                         font-size: 16px;
                     }
+                    .boton-enviar{
+                        background-color:rgb(226, 226, 226);
+                        color: rgb(116, 116, 116);
+                        padding: 10px;
+                        border-radius: 5px;
+                        border: none;
+                        outline: none;
+                        font-size: 16px;
+                        font-weight: bold;
+                            &:hover{
+                                background-color: rgb(116, 116, 116);
+                                color: white;
+                            }
+                    }
                 }
             }
-        }
-        
+        }  
     }
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller Los Horneritos Contacto</title>
+    <link rel="icon" href="../assets/images/favicon.png" type="image/png">
     <meta name="description" content="Contactate con nosotros">
     <meta name="keywords"
     content="horneritos, discapacidad, entidad, trabajo, esteban echeverria, luis guillon, bolsas, escobillones, contacto, telefono, horario, mensaje, colaborá">
@@ -42,36 +43,38 @@
           </nav>
     </header>
     <main>
-        <div class="contenedor" >
-            <div class="contenedor__contacto">
-                <h4>Contacto</h4>
-                <ul>
-                    <li>
-                        011 4281 8515
+        <div class="contenedor-info">
+            <div class="contenedor-info__contacto">
+                <h5 style="font-weight: bold;">Contacto</h5>
+                <ul class="contacto-item">
+                    <li class="contacto-item__grupo">
+                        <img class="contacto-icon" src="../assets/images/phone.svg" alt="telefono">
+                        <p style="padding-left: 10px;">011 4281 8515</p>
                     </li>
-                    <li>
-                        loshorneritos.93@gmail.com
+                    <li class="contacto-item__grupo">
+                        <img class="contacto-icon" src="../assets/images/correo.svg" alt="correo">
+                        <p style="padding-left: 10px;">loshorneritos.93@gmail.com</p>
                     </li>
-                    <li>
-                        Jujuy 239, Monte Grande - Esteban Echeverría
+                    <li class="contacto-item__grupo">
+                        <img class="contacto-icon" src="../assets/images/alfiler.svg" alt="ubicación">
+                        <p style="padding-left: 10px;">Jujuy 239, Monte Grande - Esteban Echeverría</p>
                     </li>
                 </ul>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.9493597020573!2d-58.45306538458596!3d-34.80721587580114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3c544f0ae13%3A0x8420b2720afc9af1!2sTaller%20de%20Produccion%20los%20Horneritos!5e0!3m2!1ses!2sar!4v1671904393686!5m2!1ses!2sar" width="350" height="250" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13103.796783075315!2d-58.450877!3d-34.80722!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8420b2720afc9af1!2sTaller%20de%20Produccion%20los%20Horneritos!5e0!3m2!1ses!2sar!4v1675728021328!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="card text-center">
                 <div class="card-header">
                   Colaborá con nosotros
                 </div>
-                <div class="card-body" style="width: 350px; height: 200px;">
+                <div class="card-body">
                   <h5 class="card-title">Alias MercadoPago: Taller.Loshorneritos</h5>
                   <p class="card-text"> CVU: 0000003100018455791598 CUIT/CUIL:20077705415</p>
-                  <a href="#" class="btn btn-primary">Click aquí</a>
+                  <a href="#" class="boton-aqui">Click aquí</a>
                 </div>
               </div>
-            <form action="" method="post" enctype="text/plain" class="contenedor__form">
+            <form action="" method="post" enctype="text/plain" class="contenedor-info__form">
                 <fieldset>
                     <legend>
-                        <h4>Comunicate con nosotros</h4>
+                        <h5 style="font-weight: bold;">Comunicate con nosotros</h5>
                     </legend>
                      <div>
                         <label for="nombre">Nombre</label>
@@ -88,14 +91,14 @@
                     <div>
                         <label for="mensaje">Mensaje</label>
                     </div>
-                        <textarea class="textarea" name="" id="mensaje" cols="30" rows="10" placeholder="Deje su mensaje" required></textarea>
+                        <textarea class="textarea" style="width: 300px; height: 200px;" name="" placeholder="Deje su mensaje" required></textarea>
                     <div>
-                        <input type="submit" value="ENVIAR">
+                        <input class="boton-enviar" type="submit" value="Enviar">
                     </div>
                 </fieldset>
+            </form>
         </div>
-      
-        </form>
+
     </main>
     <footer class="footer__element">
         <div class="footer__logo">
